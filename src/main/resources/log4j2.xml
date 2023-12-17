@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" name="LogConfig">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %class{36}.%M(%F:%L) - %msg%n"/>
+        </Console>
+
+        <!-- File Appender -->
+        <Routing name="Routing">
+            <Routes pattern="$${ctx:scenarioName}">
+                <Route>
+                    <File name="FileAppender" fileName="target/logs/${date:yyyy-MM-dd}/${date:HH-mm-ss}/${ctx:scenarioName}.log">
+                        <PatternLayout
+                                pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %class{36}.%M(%F:%L) - %msg%n"/>
+                    </File>
+                </Route>
+            </Routes>
+        </Routing>
+
+    </Appenders>
+
+    <Loggers>
+        <!-- Console Appender Logger -->
+        <Logger name="ConsoleLogger" level="debug">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- File Appender Logger -->
+        <Logger name="FileLogger" level="debug">
+            <AppenderRef ref="Routing"/>
+        </Logger>
+
+        <!-- Root Logger -->
+        <Root level="debug">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref ="Routing"/>
+        </Root>
+    </Loggers>
+</Configuration>
