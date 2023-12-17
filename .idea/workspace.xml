@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8851c2f-f265-4ece-ad2d-0618bbf0a3e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ATF.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/Endpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/BookSharingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/managers/DateSubstitution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/managers/RandomDataGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/configuration/Persistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/services/ColumnName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/services/PersistenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/properties/PropertyKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/properties/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/randomdatagenerator/RandomDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scenariocontext/NoKeyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scenariocontext/ScenarioContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scenariocontext/ScenarioContextKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/hooks/AfterHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/hooks/BeforeHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/hooks/UIHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/steps/GenericSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/steps/LoginUiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/steps/PersonalPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/MyProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/ActionsSelenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/utils/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/utils/PagePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/utils/WaitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/utils/WebElementsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/uifeatures/Login_feature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/uifeatures/PersonalPage_feature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/uifeatures/Register.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../java tools/apache-maven-3.9.4" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ZfTD0EyLb48eSig6rug46YrsTZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/agalca/IdeaProjects/ATF",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\agalca\IdeaProjects\ATF" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8851c2f-f265-4ece-ad2d-0618bbf0a3e0" name="Changes" comment="" />
+      <created>1702812011075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702812011075</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
